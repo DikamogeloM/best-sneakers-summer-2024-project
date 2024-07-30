@@ -139,6 +139,68 @@ section {
   margin: 0 auto;
 }
 
+.secondary-information {
+  background-image: linear-gradient(
+      360deg,
+      rgba(3, 5, 4, 0.9) 0%,
+      rgba(2, 4, 3, 0.7) 51.55%,
+      rgba(11, 6, 32, 0.6) 100%
+    ),
+    url("../images/yeezys.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 260px 0;
+}
+
+.secondary-information h3 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  text-align: left;
+  opacity: 0.8;
+  background: white;
+  color: black;
+}
+
+.card-body {
+  padding: 32px;
+}
+
+.card h4 {
+  font-size: 24px;
+  line-height: 1;
+  color: black;
+  margin: 0;
+}
+.card h5 {
+  font-size: 20px;
+  line-height: 1;
+  color: black;
+  margin: 0;
+}
+
+.card p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: black;
+}
+
+.image-responsive {
+  width: 75%;
+  height: 350px;
+  display: block;
+}
+
 footer {
   color: white;
   background-image: linear-gradient(rgba(2, 4, 3, 0.7), rgba(2, 4, 3, 0.7)),
