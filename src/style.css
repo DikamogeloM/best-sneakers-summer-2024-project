@@ -258,7 +258,7 @@ footer a:hover {
   }
 
   header h1 {
-    font-size: 48px;
+    font-size: 45px;
     line-height: 1;
     margin-bottom: 15px;
   }
@@ -275,12 +275,17 @@ footer a:hover {
     text-align: center;
   }
 
+  .container {
+    margin: 0 auto;
+  }
+
   .secondary-information {
     padding: 0;
   }
 
   .card {
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   .embed {
