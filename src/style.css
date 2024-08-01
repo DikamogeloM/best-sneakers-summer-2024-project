@@ -253,6 +253,10 @@ footer a:hover {
 }
 
 @media (max-width: 960px) {
+  body {
+    margin: 0;
+  }
+
   header {
     padding: 60px 0;
   }
@@ -273,10 +277,6 @@ footer a:hover {
 
   main {
     text-align: center;
-  }
-
-  .container {
-    margin: 0 auto;
   }
 
   .secondary-information {
@@ -303,6 +303,6 @@ footer a:hover {
   }
 
   section {
-    padding: 30px;
+    padding: 2px;
   }
 }
