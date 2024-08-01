@@ -279,6 +279,10 @@ footer a:hover {
     text-align: center;
   }
 
+  .main-information {
+    margin: 0;
+  }
+
   .secondary-information {
     padding: 0;
   }
